@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edtech landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section>
+    <div class="circle"></div>
+    <header>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="textBox">
+            <h2>Join KnowEdge Today and Ignite Your <br><span>Learning Revolution!</span></h2>
+            <p>
+
+                Are you ready to unlock your true potential? Sign up today and embark on a learning journey that
+                 will shape your future. With KnowEdge, programming is not just a destination –
+                it's an exhilarating adventure. Learn programming now..!
+            </p>
+          <a href="#">Learn More</a>
+          <a href="#">Login Now</a>
+  
+        </div>
+        <div class="imgBox">
+            <img src="programmer.png" class="programming">
+        </div>
+        <ul class="thumb">
+            <li><img src="python.png" onclick="imgSlider('python.png')"></li>
+            <li><img src="java.png" onclick="imgSlider('java.png')"></li>
+            <li><img src="c-.png" onclick="imgSlider('c-.png')"></li>
+            <li><img src="c-sharp.png" onclick="imgSlider('c-sharp.png')"></li>
+
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+
+        </ul>
+       
+   </section> 
+   <script type="text/javascript">
+   function imgSlider(anything){
+    document.querySelector('.programming').src=anything
+
+   }
+
+
+   </script>
+</body>
+</html>
